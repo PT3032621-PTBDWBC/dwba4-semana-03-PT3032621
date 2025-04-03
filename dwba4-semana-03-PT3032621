@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <style>
+        /* Estilo da caixa */
+        .caixa {
+            border: 1px solid black; /* Adiciona uma borda */
+            padding: 20px; /* Espaçamento interno */
+            width: 600px; /* Largura da caixa */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+        /* Estilo do hyperlink */
+        .link-tutorial {
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none; /* Remove o sublinhado */
+            color: black; /* Cor do texto */
+        }
+        /* Alinhar o vídeo ao centro */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+<figure>
+<p id="topo"><img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/Logo.jpg" ></p>
+</figure>
+<h3>Eventos</h3>
+<figure>
+<img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/SEJA_RARO.jpg" style="width: 50%;">
+<figcaption>Anviversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+</figure>
+<h2>Sobre a Biblioteca</h2>
+<figure>
+<img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/library.jpeg">
+</figure>
+<h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
+<h6>Publicado: Quarta-feira, 14 de agosto de 2019</h6>
+<h2>Conheça o SUAP</h2>
+ <div class="caixa">
+        <a href="https://www.youtube.com/watch?v=yVbOcB1ryh0" class="link-tutorial">
+            Tutorial de Acesso - SUAP 1
+        </a>
+        <div class="video-container">
+            <iframe width="300" height="225" src="https://www.youtube.com/embed/yVbOcB1ryh0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+<figure>
+<a href="#topo"><img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/MoveTop.png"style="width: 5%;"></a>
+<img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/facebook.png"style="width: 5%;">
+</figure>
+<p>IFSP - Câmpus Pirituba - AV. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - COntato: (011) 2504-0100</p>
+
+</body>
+</html>
